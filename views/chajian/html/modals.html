@@ -1,0 +1,25 @@
+<div class="modal fade bs-example-modal-lg" id="tieziModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" style="">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">&times;</span>
+					<span class="sr-only">Close</span>
+				</button>
+				<h4 class="modal-title">帖子</h4>
+			</div>
+			<div class="modal-body">
+				<p>标题</p>
+				<div><textarea ng-model="makePost.title" name="title" id="tieziTitleAreaID" cols="30" rows="1"></textarea></div>
+				<p>内容</p>
+				<div><textarea name="" ng-model="makePost.content" id="tieziContentAreaID" cols="30" rows="10"></textarea></div>
+				<div id="tieziHtmlAreaID"></div>
+				<div><span  class="post_showHtmlBtn pointer glyphicon glyphicon-eye-open"></span></div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+				<button type="button" class="btn btn-primary" ng-click="makeAPost()" id="tiezi_fabu">发布</button>
+			</div>
+		</div>
+	</div>
+</div>
