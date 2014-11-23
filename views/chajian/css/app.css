@@ -55,7 +55,7 @@
   -moz-box-orient: vertical;
   -webkit-box-orient: vertical;
   box-orient: vertical;
-  width: 300px;
+  width: 100%;
   height: 100%;
 }
 .level1 .left2plane .top {
@@ -112,6 +112,10 @@
   width: 550px;
 }
 #tieziModal #tieziContentAreaID {
+  width: 830px;
+  height: 270px;
+}
+#postPieceModal #postPieceContentAreaID {
   width: 830px;
   height: 270px;
 }

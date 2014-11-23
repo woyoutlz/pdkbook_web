@@ -4,6 +4,11 @@
 		<div class="title">{{post.title}}</div>
 		
 		<div ng-bind-html="markedContent" class="htmlContent"></div>
+		<div class="pieceContainer">
+			<div class="" ng-repeat="(key,piece) in pieces">
+				{{piece.content}}
+			</div>
+		</div>
 	</div>
 	<div class="foot">
 		<div>
